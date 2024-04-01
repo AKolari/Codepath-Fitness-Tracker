@@ -2,7 +2,7 @@
 
 Submitted by: **Andi Kolari**
 
-**Name of your app** is a health metrics app that allows users to track ... [TODO] 
+**Fitness Tracker** is a health metrics app that allows users to track calories 
 
 Time spent: **12** hours spent in total
 
