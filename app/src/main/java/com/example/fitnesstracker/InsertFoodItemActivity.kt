@@ -1,5 +1,6 @@
 package com.example.fitnesstracker
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -15,6 +16,7 @@ class InsertFoodItemActivity: AppCompatActivity() {
         val submit = findViewById<Button>(R.id.button2)
         val name = findViewById<EditText>(R.id.editTextText)
         val cal = findViewById<EditText>(R.id.editTextNumber)
+
 
 
         submit.setOnClickListener{

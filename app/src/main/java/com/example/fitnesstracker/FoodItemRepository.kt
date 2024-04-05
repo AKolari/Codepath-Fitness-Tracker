@@ -11,7 +11,7 @@ class FoodItemRepository(private val foodItemDAO: FoodItemDAO) {
 
     suspend fun addItem(foodItemEntity: FoodItemEntity){
         foodItemDAO.addFoodItem(foodItemEntity)
-        Log.e("FilmFragment", "Test")
+
     }
 
 

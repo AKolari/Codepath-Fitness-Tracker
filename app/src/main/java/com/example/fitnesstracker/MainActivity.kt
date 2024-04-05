@@ -8,6 +8,7 @@ import android.widget.Button
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
@@ -30,15 +31,22 @@ class MainActivity : AppCompatActivity() {
         fragmentTransaction.replace(R.id.content, mFragment, null).commit()
 
 
+        val navView =findViewById<BottomNavigationView>(R.id.nav)
 
+        navView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.action_summary->
+                    // do something here
+                    true
+                R.id.action_entries ->
+                    // do something here
+                    true
 
-        val transitionButton = findViewById<Button>(R.id.button);
-
-        transitionButton.setOnClickListener{
-            val intent = Intent(it.context, InsertFoodItemActivity::class.java)
-
-            it.context.startActivity(intent)
+                else -> true
+            }
         }
+
+
 
 
     }
