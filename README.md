@@ -10,11 +10,9 @@ Time spent: **12** hours spent in total
 
 The following **required** functionality is completed:
 
-- [X] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `Calories`
-- [X] **There is a "create entry" UI that prompts users to make their daily entry**
-- [X] **New entries are saved in a database and then updated in the RecyclerView**
-- [X] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
+- [X] **Use at least 2 Fragments**
+- [X] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [X] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
  
 The following **optional** features are implemented:
 
@@ -31,7 +29,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![FitnessTracker-ezgif com-video-to-gif-converter](https://github.com/AKolari/Codepath-Fitness-Tracker/assets/90071560/109b7bbe-bb10-4cd7-a02e-778cbe033c60)
+![Fitness2-ezgif com-video-to-gif-converter](https://github.com/AKolari/Codepath-Fitness-Tracker/assets/90071560/3fa6868f-f5c1-4835-9f26-c70d4b3cca40)
+
 
 
 
